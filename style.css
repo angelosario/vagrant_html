@@ -11,14 +11,16 @@ body {
 }
 
 h1 {
-	color: #555555;
+	color: rgb(85, 85, 85);
 	text-rendering: optimizeLegibility;
 	font-size: 48px;
 	background: white;
 	height: 20%;
+	max-height: 20%;
 	text-align: center;
 	padding-top: 25rem;
 	padding-bottom: 25rem;
+	
 }
 
 h1 nav {
@@ -31,6 +33,43 @@ h1 nav {
 	right: 35px;
 	padding-right: 1em;
 	word-spacing: 5px;
+}
+
+h1 div {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	border: 0px;
+}
+
+h1 div .started {
+	color: white;
+	display: inline-block;
+	background: rgb(47, 116, 255);
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	border: 2px;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	padding: 0.5em 2em 0.5em 2em;
+	border-color: rgb(47, 116, 255);
+	box-sizing: border-box;
+	box-shadow: 3px 4px 0px 0px rgba(0, 0, 0, 0.1);
+	
+}
+
+h1 div .button {
+	display: inline-block;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	border: 1px solid #555555;
+	padding: 0.5em 2em 0.5em 2em;
+	box-sizing: border-box;
+	box-shadow: 3px 4px 0px 0px rgba(0, 0, 0, 0.1);
+	
 }
 
 h2 {
