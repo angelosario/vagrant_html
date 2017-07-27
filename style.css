@@ -3,6 +3,7 @@
 	font-family: "klavika-web", 'Helvetica', sans-serif;
 	letter-spacing: 0.01em;
 	margin: 0px;
+	line-height: 1.75em;
 }
 
 body {
@@ -44,6 +45,9 @@ h1 div {
 }
 
 h1 div .started {
+	font-family: 'klavika-web';
+	letter-spacing: 0.125em;
+	font-weight: 600;
 	color: white;
 	display: inline-block;
 	background: rgb(47, 116, 255);
@@ -56,10 +60,14 @@ h1 div .started {
 	border-color: rgb(47, 116, 255);
 	box-sizing: border-box;
 	box-shadow: 3px 4px 0px 0px rgba(0, 0, 0, 0.1);
+	text-decoration: none;
 	
 }
 
 h1 div .button {
+	font-family: 'klavika-web';
+	letter-spacing: 0.125em;
+	font-weight: 600;
 	display: inline-block;
 	font-size: 1.25rem;
 	text-transform: uppercase;
@@ -69,14 +77,21 @@ h1 div .button {
 	padding: 0.5em 2em 0.5em 2em;
 	box-sizing: border-box;
 	box-shadow: 3px 4px 0px 0px rgba(0, 0, 0, 0.1);
+	text-decoration: none;
 	
 }
 
 h2 {
+	font-family: 'klavika-web', 'Helvetica', sans-serif;
 	font-size: 3rem;
 }
 
+.white {
+	color: white;
+}
+
 p {
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5rem;
 }
 
@@ -159,6 +174,10 @@ span {
 
 }
 
+div.section5 {
+	max-height: 20%;
+}
+
 div.section5 img {
 	max-width: 85%;
 	text-align: center;
@@ -166,6 +185,7 @@ div.section5 img {
 	display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 10em;
 }
 
 .blackandwhite {
@@ -209,3 +229,4 @@ footer nav {
 	format("woff2");
 	unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
+
