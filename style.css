@@ -2,10 +2,10 @@
 	font-size: 12px;
 	font-family: "klavika-web", 'Helvetica', sans-serif;
 	letter-spacing: 0.01em;
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 	line-height: 1.75em;
-	border: 1px solid rgba(0, 0, 0, 0.3);
+	border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 
@@ -26,21 +26,61 @@ h1 {
 	padding-bottom: 25rem;
 }
 
-
 .header {
+	width: 100%;
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
 	box-sizing: border-box;
-	background-color: black;
+	background-color: red;
+}
+
+body > hmtl:nth-child(1) > header:nth-child(4) > div:nth-child(1) > a:nth-child(1) {
+	display: flex;
+	align-content: space-around;
+}
+
+body > hmtl:nth-child(1) > header:nth-child(4) > div:nth-child(1) {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.header > header:nth-child(1) > div:nth-child(1) {
+	padding: 0px;
+	max-width: 50%;
+	
+}
+
+.header > header:nth-child(1) > div:nth-child(2) {
+	padding: 0px;
+	max-width: 50%;
+}
+
+body > hmtl:nth-child(1) > header:nth-child(4) > div:nth-child(1) > div:nth-child(2) {
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .glass {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	height: 15%;
 }
 
+
+
 .logo {
 	background-size: auto 100% !important;
+}
+
+.glass > div:nth-child(2) {
+	display: flex;
+	align-items: center;
+	padding: 0px;
 }
 
 .glass-nav {
@@ -48,6 +88,10 @@ h1 {
 	color: #555555;
 	text-align: right;
 	word-spacing: 5px;
+}
+
+.section > img:nth-child(1) {
+
 }
 
 h1 div {
@@ -123,6 +167,10 @@ div {
 }
 
 .section2 {
+	display: flex;
+	flex: wrap;
+	justify-content: space-around;
+	align-items: center;
 	background: #1563ff;
 	height: 20%;
 	max-height: 20%;
@@ -132,6 +180,17 @@ div {
 	text-align: left;
 	clear: left;
 }
+
+.section2 > div:nth-child(1) {
+	max-width: 50%;
+	padding: 0px;
+}
+
+.section2 > div:nth-child(2) {
+	max-width: 50%;
+	padding: 0px;
+}
+
 
 .section3 {
 	display: flex;
