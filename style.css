@@ -5,7 +5,7 @@
 	margin: 0;
 	padding: 0;
 	line-height: 1.75em;
-	border: 1px solid rgba(255, 255, 255, 0.3);
+	
 }
 
 
@@ -86,6 +86,7 @@ body > hmtl:nth-child(1) > header:nth-child(4) > div:nth-child(1) > div:nth-chil
 .glass-nav {
 	font-family: 'OpenSans-SemiBold';
 	color: #555555;
+	font-weight: bold;
 	text-align: right;
 	word-spacing: 5px;
 }
