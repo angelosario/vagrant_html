@@ -1,0 +1,29 @@
+[33mcommit a314482324f1cbd6edb6daa4e90fda50f5cf7828[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Angel <angelosario@gmail.com>
+Date:   Wed Jul 26 19:59:13 2017 -0300
+
+    Solucionado el header con float left en la imagen y overflow auto en el contenedor
+
+[33mcommit b081efbb25a4f95ffbb17a65579eb23977587fac[m
+Author: Angel <angelosario@gmail.com>
+Date:   Wed Jul 26 17:43:41 2017 -0300
+
+    Nueva modificación de la estructura html de los encabezados
+
+[33mcommit 0f4d068e4620f5bca5fe85284856ea320ad30294[m
+Author: Angel <angelosario@gmail.com>
+Date:   Wed Jul 26 17:29:53 2017 -0300
+
+    Cambios en la estructura del html
+
+[33mcommit bf33d2067dedaec4cbd3490ad15c942e677c4461[m
+Author: Angel <angelosario@gmail.com>
+Date:   Tue Jul 25 19:36:24 2017 -0300
+
+    Cambios en el título
+
+[33mcommit e06ac0b5d59c7f09b3b6f8ff6134528fc4beaa69[m
+Author: Angel <angelosario@gmail.com>
+Date:   Tue Jul 25 19:31:15 2017 -0300
+
+    Primer iteración de la página de Vagrant
